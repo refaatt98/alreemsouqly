@@ -1,0 +1,18 @@
+{
+  "id": "/admin",
+  "name": "لوحة تحكم الريم",
+  "short_name": "تحكم الريم",
+  "description": "إدارة طلبات ومنتجات الريم.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "/admin/orders",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#FDF6F3",
+  "theme_color": "#E9A7B8",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
