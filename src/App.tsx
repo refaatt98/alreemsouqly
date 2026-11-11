@@ -4,6 +4,7 @@ import { RootErrorBoundary } from "@/components/RootErrorBoundary";
 import Home from "@/pages/Home";
 import ProductRoute from "@/pages/Product";
 import AdminRoute from "@/pages/Admin";
+import Four from "@/pages/Four";
 import NotFound from "@/pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -18,6 +19,7 @@ export default function App() {
             <Route path="/product/:id" element={<ProductRoute />} />
             <Route path="/admin" element={<AdminRoute />} />
             <Route path="/admin/orders" element={<AdminRoute />} />
+            <Route path="/4" element={<Four />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
